@@ -45,7 +45,7 @@ const fetchData = async (query) => {
 /** Gun JS **/
 import Gun from "gun";
 import "gun/sea";
-const gun = Gun(["http://localhost:5173/gun"]);
+const gun = Gun(["https://blockchain-based-chat-app.vercel.app/gun"]);
 
 const encryption = async (message, action) => {
   try {
